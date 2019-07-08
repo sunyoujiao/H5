@@ -1,0 +1,38 @@
+.img_div{
+    margin:20px 40px 0 40px;
+    position:relative; 
+    width:400px;
+    height: 500px;
+}
+.mask {
+    position: absolute;
+    top:2px;
+    left: 0;
+    width: 300px;
+    height: 465px;
+    background: rgba(101, 101, 101, 0.6);
+    color: #ffffff;
+    opacity: 0;
+}
+.mask h3 {
+    text-align: center;
+}
+.img_div a:hover .mask {
+    opacity: 1;           
+}
+.my-font-size{
+    text-align: center;
+    font-size:23px;
+    font-family: "楷体";
+    position: relative;
+    top:370px;
+    color:rgb(236, 149, 115);
+}
+.my-font-family{
+    text-align: center;
+    font-size:20px;
+    font-family: "宋体";
+    position: relative;
+    top:355px;
+    color:rgb(233, 150, 81);
+}

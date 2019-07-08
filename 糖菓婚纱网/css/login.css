@@ -1,0 +1,66 @@
+.mybackground{
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    position: relative;
+    top:50px;
+    right:55px;
+}
+.myborder{
+    width:300px;
+    height:450px;
+    border:0px solid #ddd;
+    position: relative;
+    left:770px;
+    bottom: 550px;
+    
+}
+.mybutton-right{
+    border-radius: 3px;
+}
+.mybutton-left{
+    float:left;
+    border-radius: 3px;
+    outline: none;
+}
+.mypic{
+    width:30px;
+    position: relative;
+    bottom:15px;
+    left:15px;
+}
+.myname{
+    border-radius: 7px;
+    padding:0px;
+    margin:0px;
+    position: relative;
+    left:15px;
+}
+.myfont{
+    color:#fff;
+}
+.btn:hover,
+.btn:focus {
+outline: none; 
+}
+.btn-success{
+ height:40px;
+}
+.mypwd{
+position: relative;
+left:150px;	
+}
+
+.myfont-family{
+font-family: "Vivaldi";
+font-size:30px;
+font-weight: normal;
+text-align: center;	
+}
+.mycol{
+color:#fff;
+text-decoration: none;
+}
+a:link { text-decoration:none;}

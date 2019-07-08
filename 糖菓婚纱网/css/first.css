@@ -1,0 +1,21 @@
+.mybackground-color{
+    width:100%;  
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: ">";
+}
+.breadcrumb{
+background-color: transparent;
+}
+.my-font{
+    color:#000;
+}
+
+.my-font-one{
+    font-family:"Baskerville Old Face";
+    font-size: 32px;
+    color:rgb(168, 150, 150);
+}
+.my-font-two{
+    color:#000;
+}

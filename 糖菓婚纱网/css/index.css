@@ -1,0 +1,59 @@
+.mybackground{
+ margin-right:80px;
+}
+.myfont{
+    font-family: "Vivaldi";
+    font-size:30px;
+    font-weight: normal;
+  
+}
+
+/*重写指示符的样式*/
+.carousel-indicators li{
+    width:15px;height:15px;
+    background-color:#fff;
+    margin-left:6px;
+    margin-right:6px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color:#0aa1ed;
+}
+/*重写左右箭头的样式*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:3%;height:20%;
+    background-color:#aaa;
+    top:40%;
+    border-radius:0.25rem;   
+}
+.mylong{
+    width:100%;
+    height:130px;
+    background-color: #ddd;
+}
+.myhover{
+    font-size:30px;
+    font-family: "宋体";
+    display: inline-flex;
+    margin-top:40px;
+}
+.myright{
+    text-align: center;
+    margin-top: 60px;
+    padding-top:5px;
+}
+.myliner{
+    font-family: "Baskerville Old Face";
+    font-size:50px;
+}
+.myliner-one{
+    font-family: "微软雅黑";
+    font-size:25px;
+}
+
+
+
+/*图片框*/
+
+  

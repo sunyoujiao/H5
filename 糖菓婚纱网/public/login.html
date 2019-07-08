@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<title>Document</title>
+</head>
+<body>
+	<!--背景图-->
+	<div class="container">
+			<div class="mybackground">
+				<img src="../img/23.jpg">
+			</div>
+			<!--登录框-->
+		<div class="myborder">
+			<a href="index.html"class="myfont-family"><p class="mycol">Sugar Guo</p></a>
+			<button class="w-50 mybutton-right btn-secondary mb-3 btn">登录</button>
+			<button class="w-50 mybutton-left btn-secondary btn">注册</button>
+			<img src="../img//xingmingyonghumingnicheng-copy.png"class="mypic mt-5">
+			<input type="text" id="uname" placeholder="请输入用户名" class="myname mt-4 w-75 ml-4 pr-5  btn">
+			<img src="../img/mima.png"class="mypic mt-4">
+			<input type="password" id="upass" placeholder="请输入密码" class="myname mt-4 w-75 ml-4 pr-5 btn" >
+			<input type="checkbox" class="mysee mt-4">记住密码
+			<a href="#" style="color:#fff" class="mypwd">忘记密码?</a>	
+			<button class="btn-success w-100 mt-3 btn" id="btn">登录</button>
+		</div>
+	</div>
+	<script>
+        //1.获取按钮用户名元素
+        var btn=document.getElementById("btn");
+        var uname=document.getElementById("uname");
+        //2.为按钮绑定点击事件
+        btn.onclick=function(){
+        //3.将用户名保存到sessionStorage
+        sessionStorage.setItem("uname",uname.value);
+        //4.2秒后跳转首页  
+        alert("登录成功2秒后跳转首页");
+        setTimeout(function(){
+            location.href="index.html";
+        },2000)
+        }
+    </script>
+</body>
+</html>
