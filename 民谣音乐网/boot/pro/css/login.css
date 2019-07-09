@@ -1,0 +1,19 @@
+.my_first{
+    background-image:url("../../img/header/header.jpg");
+    background-attachment:fixed;
+
+
+}
+
+.block{
+    float: left;
+    left:200px;
+    top:300px;
+}
+.bg-white{
+    width:340px;
+    height:380px;
+}
+
+
+

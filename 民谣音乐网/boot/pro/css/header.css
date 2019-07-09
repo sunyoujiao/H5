@@ -1,0 +1,37 @@
+.bg{
+    background-color: #000000;
+
+}
+.first{
+    width:130px;
+    height:130px;
+    border:1px solid:#000000;
+}
+.my_first{
+    background-image:url("../../img/header/header.jpg");
+    background-attachment:fixed;
+}
+.bg-white{
+    background-size: cover;
+
+    justify-content: space-between;
+}
+.h3{
+    justify-content: space-between;
+}
+.offset-1{
+
+    border:1px solid #818182;
+}
+.bg-dark{
+    justify-content: space-between;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: " ";
+
+}
+.color{
+
+    background-color: transparent;
+    justify-content: center;
+}
