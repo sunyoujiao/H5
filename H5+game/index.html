@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+     body{padding-top:10px;}
+     .all_bg{
+       width:800px;height:600px;margin:0 auto;
+       border:1px solid red;
+     }
+     /*父元素*/
+     #allcanvas{
+       position: relative;
+       width:800px;
+       height:600px;
+       margin:0px;
+     }
+     #canvas1{
+       position: absolute;
+       width:800px;
+       height:600px;
+       z-index: 1;/*前面画布*/
+       bottom:0;
+       left:0;
+     }
+     #canvas2{
+       position: absolute;
+       width:800px;
+       height:600px;
+       z-index: 0;/*后面画布*/
+       bottom:0;
+       left:0;
+     }
+  </style>
+</head>
+<body>
+  <!--最外层div 背景-->
+  <div class="all_bg">
+    <!--所有画布-->
+    <div id="allcanvas">
+      <!--前面画布 -->
+      <canvas id="canvas1" width="800" height="600"></canvas>
+      <!--后面画布 -->
+      <canvas id="canvas2" width="800" height="600"></canvas>
+    </div>
+  </div>
+  <script src="js/commonFunctions.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/background.js"></script>
+  <!--script src="js/ane.js"></script-->
+  <script src="js/ane2.js"></script>
+  <script src="js/fruit.js"></script>
+  <script src="js/mom.js"></script>
+  <script src="js/collsion.js"></script>
+  <script src="js/data.js"></script>
+  <script>
+    //var fn = function(){
+    //  setTimeout(fn,100)
+    //  console.log(123);
+    //}
+    //setTimeout(fn,100);
+    
+  </script>
+</body>
+</html>
